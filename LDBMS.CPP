@@ -13,7 +13,7 @@ class book
  char name[50];
  int id;
  float price;
- char authour[50];
+ char author[50];
 
  public:
 
@@ -22,7 +22,7 @@ class book
   strcpy(name,"NULL");
   id=1;
   price=-1;
-  strcpy(authour,"NULL");
+  strcpy(author,"NULL");
  }
 
  void defaultbook()
@@ -30,7 +30,7 @@ class book
   strcpy(name,"NULL");
   id=1;
   price=-1;
-  strcpy(authour,"NULL");
+  strcpy(author,"NULL");
  }
 
  int returnid()
@@ -47,14 +47,14 @@ class book
   cout<<"\nEnter Name: ";gets(name);
   cout<<"Enter Id: ";cin>>id;
   cout<<"Enter Price: ";cin>>price;
-  cout<<"Enter Authour: ";gets(authour);
+  cout<<"Enter Author: ";gets(Author);
  }
  void shbook()
  {
    cout<<"\nName: "<<name;
   cout<<" ::Id: "<<id;
   cout<<" ::Price: "<<price;
-  cout<<" ::Authour: "<<authour;
+  cout<<" ::Author: "<<Author;
  }
 
 };
