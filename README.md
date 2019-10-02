@@ -1,6 +1,6 @@
 # Library-Database-System
 
-This is an school project, made using Turbo C++.
+This is an school project, written in Borland C++.
 It illustrates the use of fstream.h to write and read binary files, to manage a very barebones library database.
 
 This program can manage records of the users registered in the library, and the books that are registered in the library, and enables a user to rent one single book at a time.
